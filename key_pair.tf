@@ -1,4 +1,4 @@
 resource "aws_key_pair" "acar" {
   key_name = "practise"
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDuvnBf4pCi3arEgAC4md9b4+do/7QBVU5Bib1hrkykbLI0CWGiIl6h21zFwcaPTHT18c4wiTb7tII67b7t1o4qwsUNCbGmpBRQe5hViwpoLJXaAM5hs4wJA+w6vF+39ycUn6632oNaJdFO3M1+/S99cJsZUw2hXYxHSsdAR9eBxKaKwJWxLPNkxh9WrtUPXB8jHdJsLIhaNYHGpD11iU7oJnVtrxBL6LtFMyMPFjHmRcYOrsv2P3sFS5dq45pgpHJC36f0IeyF9OKgc9ek3pKeF1ZvcUfyd9ZmGoHq+z+ITa5kIl4dqYoeH/8hx+naKdhNawp3IMfYrudkpismkK2l admin@ip-172-31-47-114"
 }
